@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>LOGANCEE</title>
+    <!--Font awosame-->
+      <link  href="CSS/font-awesome.min.css"rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="CSS/bootstrap.min.css" rel="stylesheet">
+    <link href="CSS/style.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="JS/html5shiv.js"></script>
+      <script src="JS/respond.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+ -
+      <!--Modal Contact us=========================-->
+      <!--START NAVBAR-->
+
+  <nav class="navbar navbar-default bold" id="headerSlider" >
+ 
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#" role="button" data-toggle="tooltip" data-placement="bottom" title="LOGANCEE" >LOGANCEE</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+   
+     
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#" role="button" data-toggle="tooltip" data-placement="bottom" title="HOME">HOME</a></li>
+            <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" role="button" data-toggle="tooltip" data-placement="bottom" title="SHOP">SHOP <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+            
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" role="button" data-toggle="tooltip" data-placement="bottom" title="FEATURES"><span class="badge hot">HOT</span>FEATURES <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+            <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" role="button" data-toggle="tooltip" data-placement="bottom" title="PORTFOLIO">PORTFOLIO <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+            <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" role="button" data-toggle="tooltip" data-placement="bottom" title="BLOG">BLOG<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+          <li><a href="#contact" data-toggle="modal" role="button" data-toggle="tooltip" data-placement="bottom" title="SHOPPING "  data-toggle="tooltip" data-placement="bottom" title="CONTACT">CONTACT</a></li>
+          <li><a  href="#search" data-toggle="modal" role="button" data-toggle="tooltip" data-placement="bottom" title="SEARCH"><i class="fa fa-search fa-fw fa-lg" ></i></a></li>
+          <li >
+              <a href="#shop" role="button" data-toggle="tooltip" data-placement="bottom" title="shopping " ><i class="fa fa-shopping-bag fa-fw fa-lg" ></i>
+              <span class="badge">2</span> 
+              </a>
+          </li>
+            <li ><a  href="#cog" data-toggle="modal" role="button" data-toggle="tooltip" data-placement="bottom" title="setting"><i class="fa fa-cog fa-fw fa-lg" ></i></a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+  
+ 
+<!--Modal contact form-->
+<div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+            <div class="jumbotron jumbotron-sm">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-lg-12">
+                            <h3 class="text-center">
+                                Contact us <small>Feel free to contact us</small></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      </div>
+      <div class="modal-body">
+       <form>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="name">
+                                Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
+                        </div>
+                        <div class="form-group">
+                            <label for="email">
+                                Email Address</label>
+                            <div class="input-group">
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+                                </span>
+                                <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" /></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">
+                                Subject</label>
+                            <select id="subject" name="subject" class="form-control" required="required">
+                                <option value="na" selected="">Choose One:</option>
+                                <option value="service">General Customer Service</option>
+                                <option value="suggestions">Suggestions</option>
+                                <option value="product">Product Support</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="name">
+                                Message</label>
+                            <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                                placeholder="Message"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                    </div>
+                </div>
+                </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Send message</button>
+      </div>
+    </div>
+  </div>
+</div>
+     <!--Modal Search Bottom-==============-->
+      <div class="modal fade" id="search" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title text-center">Search Bettween 1600+ Items</h4>
+      </div>
+      <div class="modal-body">
+     
+     
+		    <div class="input-group">
+                <div class="input-group-btn search-panel">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                    	<span id="search_concept">Filter by</span> <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" role="menu">
+                      <li><a href="#contains">Contains</a></li>
+                      <li><a href="#its_equal">It's equal</a></li>
+                      <li><a href="#greather_than">Greather than ></a></li>
+                      <li><a href="#less_than">Less than  </a></li>
+                      <li class="divider"></li>
+                      <li><a href="#all">Anything</a></li>
+                    </ul>
+                </div>
+                <input type="hidden" name="search_param" value="all" id="search_param">         
+                <input type="text" class="form-control" name="x" placeholder="Search term...">
+                <span class="input-group-btn">
+                    <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
+                </span>
+            </div>
+
+      </div> <!--model-body-->
+     
+    </div><!--modal-content -->
+  </div><!--modal-dialog -->
+</div><!--modal -->
+    <!--END NAVBAR-->            
+
+<!--sectionPart[1]=============================-->
+    <section id="">
+       <div class="container-fluid">
+         <div class="row">
+              <div class="col-md-6 col-xs-12 _part1">
+                <div class="heading  capitalize ">
+                   <h1 class="h1 bold">Welcome to <br><span>lo</span>gancee store</h1>
+                    <p class="lead ">we are a team of creative make amazing site in ecommercy from Unite 
+                     States. We love Pastel .its make our Design look So awesome .
+                        NOw! com here and create fachion trending with us
+                    </p> 
+                  </div>
+                </div><!--solid_part1-->
+                <div class="col-md-6 col-xs-12 _part2">
+                   <div id="Carousel_1" class="carousel slide">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#Carousel_1" data-slide-to="0" class="active"></li>
+                    <li data-target="#Carousel_1" data-slide-to="1"></li>
+                    <li data-target="#Carousel_1" data-slide-to="2"></li>
+                 </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item item1 active">
+                        <div class="fill" style=" background-color:#48c3af;">
+                            <div class="inner-content">
+                                <div class="carousel-img">
+                                    <img src="http://vocefalandoingles.com/wp-content/uploads/2016/09/sofa.png" alt="sofa" class="img img-responsive" />
+                                </div>
+                                <div class="carousel-desc">
+
+                                    <h2>Modern Designer Sofa</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis elit ipsum, scelerisque non semper eu, aliquet vel odio. Sed auctor id purus nec tristique. Donec euismod, urna vel dapibus tristique, dolor arcu ultrices lectus, nec pulvinar est turpis sit amet felis. Duis interdum purus quam, vitae cursus erat ornare at. Donec congue mi a ipsum tincidunt, imperdiet vehicula odio rutrum. Nam porta vulputate magna, id pretium lectus iaculis eu. Ut ut viverra libero.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item item2">
+                        <div class="fill" style="background-color:#b33f4a;">
+                            <div class="inner-content">
+                                <div class="carousel-img">
+                                    <img src="http://cdn.homedit.com/wp-content/uploads/2011/08/137CLUB2ST.png" alt="white-sofa" class="img img-responsive" />
+                                </div>
+                                <div class="carousel-desc">
+
+                                    <h2>Vintage Style Sofa</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis elit ipsum, scelerisque non semper eu, aliquet vel odio. Sed auctor id purus nec tristique. Donec euismod, urna vel dapibus tristique, dolor arcu ultrices lectus, nec pulvinar est turpis sit amet felis. Duis interdum purus quam, vitae cursus erat ornare at. Donec congue mi a ipsum tincidunt, imperdiet vehicula odio rutrum. Nam porta vulputate magna, id pretium lectus iaculis eu. Ut ut viverra libero.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+               </div><!--carousel slide-->
+              </div><!-- carousal_part2-->
+           </div><!--row--> 
+        </div><!--container-fluid-->
+      </section>      
+<!--==================================================-->
+   
+ 
+<!--section_1Part[2]=============================-->
+    <section id="">
+       <div class="container-fluid">
+         <div class="row">
+              
+                <div class="col-md-6 col-xs-12 carousal_part2">
+                   <div id="Carousel_2" class="carousel slide">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#Carousel_2" data-slide-to="0" class="active"></li>
+                    <li data-target="#Carousel_2" data-slide-to="1"></li>
+                    <li data-target="#Carousel_2" data-slide-to="2"></li>
+                 </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item item1 active">
+                        <div class="fill" style=" background-color:#48c3af;">
+                            <div class="inner-content">
+                                <div class="carousel-img">
+                                    <img src="http://vocefalandoingles.com/wp-content/uploads/2016/09/sofa.png" alt="sofa" class="img img-responsive" />
+                                </div>
+                                <div class="carousel-desc">
+
+                                    <h2>Modern Designer Sofa</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis elit ipsum, scelerisque non semper eu, aliquet vel odio. Sed auctor id purus nec tristique. Donec euismod, urna vel dapibus tristique, dolor arcu ultrices lectus, nec pulvinar est turpis sit amet felis. Duis interdum purus quam, vitae cursus erat ornare at. Donec congue mi a ipsum tincidunt, imperdiet vehicula odio rutrum. Nam porta vulputate magna, id pretium lectus iaculis eu. Ut ut viverra libero.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item item2">
+                        <div class="fill" style="background-color:#b33f4a;">
+                            <div class="inner-content">
+                                <div class="carousel-img">
+                                    <img src="http://cdn.homedit.com/wp-content/uploads/2011/08/137CLUB2ST.png" alt="white-sofa" class="img img-responsive" />
+                                </div>
+                                <div class="carousel-desc">
+
+                                    <h2>Vintage Style Sofa</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis elit ipsum, scelerisque non semper eu, aliquet vel odio. Sed auctor id purus nec tristique. Donec euismod, urna vel dapibus tristique, dolor arcu ultrices lectus, nec pulvinar est turpis sit amet felis. Duis interdum purus quam, vitae cursus erat ornare at. Donec congue mi a ipsum tincidunt, imperdiet vehicula odio rutrum. Nam porta vulputate magna, id pretium lectus iaculis eu. Ut ut viverra libero.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+               </div>
+              </div><!-- carousal_part1-->
+               <div class="col-md-6 col-xs-12 solid_part1">
+                <div class="heading  capitalize ">
+                   <h1 class="h1 bold">Leather Bags  <br><span>fo</span>r man</h1>
+                    <p class="lead ">we are a team of creative make amazing site in ecommercy from Unite 
+                     States. We love Pastel .its make our Design look So awesome .
+                        NOw! com here and create fachion trending with us
+                        <button class="btn btn-lg btn-default captlize" role="button"><a href="#">Explore more</a></button>
+                    </p> 
+                  </div>
+                </div><!--solid_part2-->
+           </div><!--row--> 
+        </div><!--container-fluid-->
+      </section>      
+<!--==================================================-->
+      
+ 
+ 
+     <section>
+         <div class="container">
+           <div class="row">
+            <div class="heading text-center">
+                   <h3 class="lead bold ">ceack our products</h3>
+                   <P>
+                  
+                      <button class="btn btn-default active filter" data-filter="all">BEST SELLER</button>
+                      <button class="btn btn-default filter"  data-filter=".T-shirt">NEW ARIVAL</button>
+                      <button class="btn btn-default filter"  data-filter=".shirt">MOST WONTAED</button>
+                   </P>
+               </div><!--HEADING-->
+               <div class="content container" id="container">
+                 
+       <div class="col-sm-6 col-md-4 col-lg-3 mix T-shirt">
+    <div class="thumbnail">
+        <div class="caption text-center">
+           <div class="img"><a href="#"><img src="http://via.placeholder.com/270x360"></a></div>
+            <h4 class="lead">SAMURAL T-SHIRT</h4>
+             <p class="price">$54.05</p>
+             <button class="btn btn-default uppercase" role="button"><a href="#">Add to chart</a></button>
+             <button class="btn btn-default uppercase" role="button"><a href="#"><i class="fa fa-fw fa-lg fa-heart-o"></i></a></button>
+            <button class="btn btn-default uppercase" role="button"><a href="#"><i class="fa fa-fw fa-lg fa-eye"></i></a></button>
+        </div>
+    </div>
+</div>
+<div class="col-sm-6 col-md-4 col-lg-3 mix T-shirt">
+    <div class="thumbnail">
+        <div class="caption text-center">
+  <div class="img"><a href="#"><img src="http://via.placeholder.com/270x360"></a></div>
+            <h4 class="lead">SAMURAL T-SHIRT</h4>
+             <p class="price">$54.05</p>
+             <button class="btn btn-default uppercase" role="button"><a href="#">Add to chart</a></button>
+             <button class="btn btn-default uppercase" role="button"><a href="#"><i class="fa fa-fw fa-lg fa-heart-o"></i></a></button>
+            <button class="btn btn-default uppercase" role="button"><a href="#"><i class="fa fa-fw fa-lg fa-eye"></i></a></button>
+        </div>
+    </div>
+</div>
+<div class="col-sm-6 col-md-4 col-lg-3 mix T-shirt">
+    <div class="thumbnail">
+        <div class="caption text-center">
+          <div class="img"><a href="#"><img src="http://via.placeholder.com/270x360"></a></div>
+            <h4 class="lead">SAMURAL T-SHIRT</h4>
+             <p class="price">$54.05</p>
+             <button class="btn btn-default uppercase" role="button"><a href="#">Add to chart</a></button>
+             <button class="btn btn-default uppercase" role="button"><a href="#"><i class="fa fa-fw fa-lg fa-heart-o"></i></a></button>
+            <button class="btn btn-default uppercase" role="button"><a href="#"><i class="fa fa-fw fa-lg fa-eye"></i></a></button>
+        </div>
+    </div>
+</div>   
+                   <div class="col-sm-6 col-md-4 col-lg-3 mix T-shirt">
+    <div class="thumbnail">
+        <div class="caption text-center">
+          <div class="img"><a href="#"><img src="http://via.placeholder.com/270x360"></a></div>
+            <h4 class="lead">SAMURAL T-SHIRT</h4>
+             <p class="price">$54.05<span class="mark red">99$</span></p>
+             <button class="btn btn-default uppercase" role="button"><a href="#">Add to chart</a></button>
+             <button class="btn btn-default uppercase" role="button"><a href="#"><i class="fa fa-fw fa-lg fa-heart-o"></i></a></button>
+            <button class="btn btn-default uppercase" role="button"><a href="#"><i class="fa fa-fw fa-lg fa-eye"></i></a></button>
+            
+        </div>
+    </div>
+</div>   
+     <div class="col-sm-6 col-md-4 col-lg-3 mix T-shirt">
+    <div class="thumbnail">
+        <div class="caption text-center">
+            <div class="img">
+                <a href="#"><img src="http://via.placeholder.com/270x360"></a>
+            </div>
+            <h4 class="lead">SAMURAL T-SHIRT</h4>
+            <p class="price">$54.05<span class="mark">99$</span></p>
+            <button class="btn btn-default uppercase" role="button"><a href="#">Add to chart</a></button>
+            <button class="btn btn-default uppercase" role="button"><a href="#"><i class="fa fa-fw fa-lg fa-heart-o"></i></a></button>
+            <button class="btn btn-default uppercase" role="button"><a href="#"><i class="fa fa-fw fa-lg fa-eye"></i></a></button>
+        </div>
+    </div>
+</div>  
+                     <div class="col-sm-6 col-md-4 col-lg-3 mix shirt">
+    <div class="thumbnail">
+        <div class="caption text-center">
+            <div class="img">
+                <a href="#"><img src="http://via.placeholder.com/270x360"></a>
+            </div>
+            <h4 class="lead">SAMURAL T-SHIRT</h4>
+            <p class="price">$54.05<span class="mark">99$</span></p>
+            <button class="btn btn-default uppercase" role="button"><a href="#">Add to chart</a></button>
+            <button class="btn btn-default uppercase" role="button"><a href="#"><i class="fa fa-fw fa-lg fa-heart-o"></i></a></button>
+            <button class="btn btn-default uppercase" role="button"><a href="#"><i class="fa fa-fw fa-lg fa-eye"></i></a></button>
+        </div>
+    </div>
+</div>    
+                     <div class="col-sm-6 col-md-4 col-lg-3 mix shirt">
+    <div class="thumbnail">
+        <div class="caption text-center">
+            <div class="img">
+                <a href="#"><img src="http://via.placeholder.com/270x360"></a>
+            </div>
+            <h4 class="lead">SAMURAL T-SHIRT</h4>
+            <p class="price">$54.05<span class="mark">99$</span></p>
+            <button class="btn btn-default uppercase" role="button"><a href="#">Add to chart</a></button>
+            <button class="btn btn-default uppercase" role="button"><a href="#"><i class="fa fa-fw fa-lg fa-heart-o"></i></a></button>
+            <button class="btn btn-default uppercase" role="button"><a href="#"><i class="fa fa-fw fa-lg fa-eye"></i></a></button>
+        </div>
+    </div>
+</div>    
+                     <div class="col-sm-6 col-md-4 col-lg-3 mix shirt">
+    <div class="thumbnail">
+        <div class="caption text-center">
+            <div class="img">
+                <a href="#"><img src="http://via.placeholder.com/270x360"></a>
+            </div>
+            <h4 class="lead">SAMURAL T-SHIRT</h4>
+            <p class="price">$54.05<span class="mark">99$</span></p>
+            <button class="btn btn-default uppercase" role="button"><a href="#">Add to chart</a></button>
+            <button class="btn btn-default uppercase" role="button"><a href="#"><i class="fa fa-fw fa-lg fa-heart-o"></i></a></button>
+            <button class="btn btn-default uppercase" role="button"><a href="#"><i class="fa fa-fw fa-lg fa-eye"></i></a></button>
+        </div>
+    </div>
+</div>   
+                     <div class="col-sm-6 col-md-4 col-lg-3 mix shirt">
+    <div class="thumbnail">
+        <div class="caption text-center">
+            <div class="img">
+                <a href="#"><img src="http://via.placeholder.com/270x360"></a>
+            </div>
+            <h4 class="lead">SAMURAL T-SHIRT</h4>
+            <p class="price">$54.05<span class="mark">99$</span></p>
+            <button class="btn btn-default uppercase" role="button"><a href="#">Add to chart</a></button>
+            <button class="btn btn-default uppercase" role="button"><a href="#"><i class="fa fa-fw fa-lg fa-heart-o"></i></a></button>
+            <button class="btn btn-default uppercase" role="button"><a href="#"><i class="fa fa-fw fa-lg fa-eye"></i></a></button>
+        </div>
+    </div>
+</div>    
+                     <div class="col-sm-6 col-md-4 col-lg-3 mix t-shirt">
+    <div class="thumbnail">
+        <div class="caption text-center">
+            <div class="img">
+                <a href="#"><img src="http://via.placeholder.com/270x360"></a>
+            </div>
+            <h4 class="lead">SAMURAL T-SHIRT</h4>
+            <p class="price">$54.05<span class="mark">99$</span></p>
+            <button class="btn btn-default uppercase" role="button"><a href="#">Add to chart</a></button>
+            <button class="btn btn-default uppercase" role="button"><a href="#"><i class="fa fa-fw fa-lg fa-heart-o"></i></a></button>
+            <button class="btn btn-default uppercase" role="button"><a href="#"><i class="fa fa-fw fa-lg fa-eye"></i></a></button>
+        </div>
+    </div>
+</div>    
+                     <div class="col-sm-6 col-md-4 col-lg-3 mix">
+    <div class="thumbnail">
+        <div class="caption text-center">
+            <div class="img">
+                <a href="#"><img src="http://via.placeholder.com/270x360"></a>
+            </div>
+            <h4 class="lead">SAMURAL T-SHIRT</h4>
+            <p class="price">$54.05<span class="mark">99$</span></p>
+            <button class="btn btn-default uppercase" role="button"><a href="#">Add to chart</a></button>
+            <button class="btn btn-default uppercase" role="button"><a href="#"><i class="fa fa-fw fa-lg fa-heart-o"></i></a></button>
+            <button class="btn btn-default uppercase" role="button"><a href="#"><i class="fa fa-fw fa-lg fa-eye"></i></a></button>
+        </div>
+    </div>
+</div>    
+                     <div class="col-sm-6 col-md-4 col-lg-3 mix">
+    <div class="thumbnail">
+        <div class="caption text-center">
+            <div class="img">
+                <a href="#"><img src="http://via.placeholder.com/270x360"></a>
+            </div>
+            <h4 class="lead ">SAMURAL T-SHIRT</h4>
+            <p class="price">$54.05<span class="mark">99$</span></p>
+            <button class="btn btn-default uppercase" role="button"><a href="#">Add to chart</a></button>
+            <button class="btn btn-default uppercase" role="button"><a href="#"><i class="fa fa-fw fa-lg fa-heart-o"></i></a></button>
+            <button class="btn btn-default uppercase" role="button"><a href="#"><i class="fa fa-fw fa-lg fa-eye"></i></a></button>
+        </div>
+    </div>
+</div>    
+                   
+               </div><!--content-->
+               
+             </div><hr><!--row-->
+          </div><!--container-->
+      </section>
+      <!--==============commingEvents Colapse==========================-->
+      <section id="Colapse" class="Colapseing container">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+           <h1 class="capitalize">comming events</h1>
+          <div class="panel-group" id="Taccordion" role="tablist" aria-multiselectable="true">
+       <div class="panel panel-default ">
+    
+    <div class="panel-heading " role="tab" id="headingOne">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          <i class="fa fa-fw  fa-caret-right"></i>Trending of fashion 2015 -Hipster style So cool
+          <span class="Post">Post at Jul 17,2015 | by Admin</span>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse " role="tabpanel" aria-labelledby="headingOne">
+      <div class="panel-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingTwo">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+         <i class="fa-fw  fa fa-caret-right"></i> Festival of Logancee's Sandal with C-Kingth Art
+            <span class="Post">Post at Jul 17,2015 | by Admin</span>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+      <div class="panel-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingThree">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          <i class="fa fa-fw   fa-caret-right"></i>  Mix Your Style follow "ton-sur -ton" so easy in afew minutes 
+             <span class="Post">Post at Jul 17,2015 | by Admin</span>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+      <div class="panel-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+</div>
+</div><!--colapasing-->
+
+         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 NewsLetter pull-right">
+          <h1>NewsLetter</h1>
+          <p>Subscribe to the logancee mailling list to receive updates on new arrivals, special
+           Offers and other discount information.
+          </p>
+           <div class="">
+             <form>
+               <input type="Email" name="Email" placeholder="Enter Your Email" class="col-xs-12  col-sm-8  col-md-9">
+                <input type="button" name="button" role="button" value="Subscribe"  class=" col-xs-12  col-sm-4 col-md-3 btn-black">
+             </form>
+           </div>
+        </div>
+      </section>
+   <footer class="Footer">
+     <div class="container">
+       <div class="row text-center">
+         <div class="h1 "> loganceee</div>
+          <div class="_SocialMedia capitalize">
+              <p><a href="https://www.facebook.com/bakr.mahmoud.927">Facebook</a></p>
+              <p class="_active"><a href="https://twitter.com/abubakr28355335">Twitter</a></p>
+              <p><a href="">PINTREST</a></p>
+              <p><a href="https://plus.google.com/104931590254286085213">GOOGLE+</a></p>
+              <p><a href="">INSTAGRAM</a></p>
+          </div><!--socialmedia-->
+          <div class="_copyWrite">
+            <p> &copy; 2015 <span class="bold">LOGANCEE</span> .All Right Reserved <br> Coding By <span class="bold"><a href="https://www.linkedin.com/in/abubakr-mahmoud-074956106/">Abubakr</a></span>
+          </div><!--copywrite-->
+       </div><!--row-->
+     </div><!--container-->
+   </footer> <!--footer-->
+  
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="JS/jquery.js"></script>
+    <!--mixup jquery plugin-->
+    <script src="JS/jquery.mixitup.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="JS/bootstrap.min.js"></script>
+      <!---our script-->
+      <script src="JS/script.js"></script>
+  </body>
+</html>
